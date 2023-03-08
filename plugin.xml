@@ -39,6 +39,11 @@
                     android:launchMode="singleTop"
                     android:theme="@android:style/Theme.Black.NoTitleBar"
                     android:windowSoftInputMode="adjustResize"/>
+                <queries>
+                   <intent>
+                     <action android:name="com.google.android.youtube.api.service.START" />
+                   </intent>
+                </queries>
             </config-file>
 
             <source-file src="platforms/android/src/com/bunkerpalace/cordova/YouTubeActivity.java" target-dir="src/com/bunkerpalace/cordova"/>
