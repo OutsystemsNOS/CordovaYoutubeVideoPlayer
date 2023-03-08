@@ -41,8 +41,12 @@
                     android:windowSoftInputMode="adjustResize"/>
             </config-file>
             
-             <config-file target="AndroidManifest.xml" parent="/manifest/application/queries/intent">
-                <action android:name="com.google.android.youtube.api.service.START" />
+             <config-file target="AndroidManifest.xml" parent="/manifest">
+                 <queries>
+                    <intent>
+                      <action android:name="com.google.android.youtube.api.service.START"/>
+                    </intent>
+                 </queries>
             </config-file>
 
             <source-file src="platforms/android/src/com/bunkerpalace/cordova/YouTubeActivity.java" target-dir="src/com/bunkerpalace/cordova"/>
