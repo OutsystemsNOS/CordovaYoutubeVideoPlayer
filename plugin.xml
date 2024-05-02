@@ -65,13 +65,15 @@
             </config-file>
 
             
-            <!--<framework src="XCDYouTubeKit" type="podspec" spec="~> 2.7" />-->
+            <!-- This plugin is only being used on Android
+            <framework src="XCDYouTubeKit" type="podspec" spec="~> 2.7" />
             <header-file src="platforms/ios/YoutubeVideoPlayerProject/Plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.h"/>
             <source-file src="platforms/ios/YoutubeVideoPlayerProject/Plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/YoutubeVideoPlayer.m"/>
 
             <framework src="MediaPlayer.framework"/>
             <framework src="AVFoundation.framework"/>
             <framework src="JavaScriptCore.framework"/>
+            -->
 
         </platform>
 
